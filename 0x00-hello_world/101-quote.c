@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main
- * prints a string to a standard output using write
- * * Return: 1 if success.
+ * main - Entry point
+ *
+ * Return: Always1 (success)
  */
 int main(void)
 {
