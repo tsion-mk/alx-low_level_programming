@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main
- * write(,,):prints a string to a standard output using write
- * * Return: 1 if success.
+ * main 
+ * Return: 1 if success.
  */
 int main(void)
 {
