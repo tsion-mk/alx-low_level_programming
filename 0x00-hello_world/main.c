@@ -7,5 +7,11 @@
  */
 int main(void)
 {
+	char str[] = "Hello World";
+	for (int i = 0; i < strlen(str); i++)
+	{
+		putchar(str);
+	}
     return (0);
+
 }
