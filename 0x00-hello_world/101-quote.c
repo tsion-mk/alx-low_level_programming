@@ -2,6 +2,7 @@
 #include <unistd.h>
 /**
  * main
+ * prints a string to a standard output using write
  * * Return: 1 if success.
  */
 int main(void)
