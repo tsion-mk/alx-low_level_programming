@@ -5,7 +5,7 @@
 /**
  * main - prints the string "_putchar" to the standard output
  *
- * Return : 0
+ * Return: returns 0
  */
 
 int main(void)
