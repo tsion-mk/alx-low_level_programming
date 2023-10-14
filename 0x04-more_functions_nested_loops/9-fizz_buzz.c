@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h>
 
 /**
  * main - a program that prints the numbers from 1 to 100,
@@ -13,7 +13,7 @@ int main(void)
 	int num;
 
 	num = 1;
-	while (num <= 100)
+	/*while (num <= 100)
 	{
 		if (num % 3 == 0 && num % 5 == 0)
 			printf("FizzBuzz");
@@ -26,6 +26,28 @@ int main(void)
 		printf(" ");
 
 		num++;
+	}
+	printf("\n");*/
+
+	for (; num <= 100; num++)
+	{
+		if (num % 3 == 0 && num % 5 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (num % 3 == 0)
+		{
+			printf("Fizz");
+		}
+		else if (num % 5 == 0)
+		{
+			printf("Buzz");
+		}
+		else
+		{
+			printf("%d", num);
+		}
+		printf(" ");
 	}
 	printf("\n");
 	return (0);
