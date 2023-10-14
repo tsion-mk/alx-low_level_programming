@@ -9,6 +9,23 @@
 
 int main(void)
 {
-	unsigned int number;
+	long int  number;
+	int i;
 
-	number = 
+	number = 612852475143;
+
+	for (i = 3; (i * i) <= number; i = i + 2)
+	{
+		while (number % i == 0)
+		{
+			printf("%d ", i);
+			number = number / i;
+		}
+	}
+
+	if (number > 2)
+	       	printf ("%d ", (int)number);
+	printf("\n");
+	return (0);
+
+}
