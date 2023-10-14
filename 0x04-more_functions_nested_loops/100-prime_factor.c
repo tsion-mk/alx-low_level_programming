@@ -18,7 +18,7 @@ int main(void)
 	{
 		while (number % i == 0)
 		{
-			printf("%d ", i);
+			printf("%d,", i);
 			number = number / i;
 		}
 	}
