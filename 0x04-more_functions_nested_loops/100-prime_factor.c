@@ -23,8 +23,11 @@ int main(void)
 		}
 	}
 
-	if (number > 2)
-	       	printf ("%d ", (int)number);
+	/**
+	*if (number > 2)
+	*printf("%d ", (int)number);
+	*/
+
 	printf("\n");
 	return (0);
 
