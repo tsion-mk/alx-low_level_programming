@@ -18,12 +18,10 @@ int main(void)
 	{
 		while (number % i == 0)
 		{
-			printf("%d ", i);
 			number = number / i;
 		}
 	}
-	if (number > 2)
-		printf("%d ", (int)number);
+		printf("%d", (int)number);
 
 	printf("\n");
 	return (0);
