@@ -15,8 +15,8 @@ void print_rev(char *s)
 	{
 		i++;
 	}
-
-	while (i > 0)
+	
+	while (i >= 0)
 	{
 		if (s[0] == '\0')
 			break;
